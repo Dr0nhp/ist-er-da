@@ -1,3 +1,27 @@
-.t-align-c {
+body {
+    background-color: #191919;
+}
+
+.btn-link:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+h1 {
+    color: #5c6a78;
     text-align: center;
+    margin-bottom: 2rem;
+}
+
+#accordion {
+    max-width: 700px;
+    margin: auto;
+}
+
+.card {
+    background-color: #b9b9b9;
+}
+
+.btn-link {
+    color: #191919;
 }
