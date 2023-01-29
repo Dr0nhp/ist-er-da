@@ -22,6 +22,10 @@ h1 {
     background-color: #b9b9b9;
 }
 
+.card-body {
+    color: #5c6a78;
+}
+
 .btn-link {
     color: #191919;
 }
