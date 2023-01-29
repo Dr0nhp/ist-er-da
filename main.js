@@ -1,5 +1,5 @@
 function generateDays() {
-    const where = [0, 0, 1, 1, 0, 0, 1]
+    const where = [0, 3, 1, 2, 3, 2, 2]
     const d = new Date();
     let cur_day = d.getDay();
     return [cur_day, where]
