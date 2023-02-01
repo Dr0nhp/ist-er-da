@@ -28,6 +28,7 @@ function a2(cur_day, where) {
             return 9999;
         }
         else if (c.length == 1) {
+            console.log(c[0],c)
             return (c[0] - cur_day % 7);
         }
         else {
