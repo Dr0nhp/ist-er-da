@@ -28,13 +28,12 @@ function a2(cur_day, where) {
             return 9999;
         }
         else if (c.length == 1) {
-            console.log(c[0],cur_day);
-            return (c[0] - cur_day % 7);
+            return ((c[0] - cur_day) % 7);
         }
         else {
             let dif = [];
             for (e in c) {
-                dif.push(c[e] - cur_day % 7);
+                dif.push((c[e] - cur_day) % 7);
             }
             return (dif.sort()[0]);
         }
