@@ -33,7 +33,7 @@ function nextTíme(currentDay, timeTable) {
   }
 
 function main() {
-    const helper = generateDays()
+    const [currentDay, timeTable] = generateDays();
     document.getElementById("answer-1").innerHTML = hereToday(currentDay, timeTable);
     document.getElementById("answer-2").innerHTML = nextTíme(currentDay, timeTable);
 }
